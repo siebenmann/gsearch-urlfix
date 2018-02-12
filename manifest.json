@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Google Search URL Fixup",
+    "version": "0.8",
+    "applications": {
+	"gecko": {
+	    "id": "gsearch-urlfix@cks.mef.org"
+	}
+    },
+
+    "description": "Fix links in the JavaScript-free Google Search results to be the original links instead of links indirected through Google with tracking identifiers. Among other benefits, this allows your history to work so you can see if you've already visited a search result.",
+
+    "content_scripts": [
+	{
+	    "matches": ["*://www.google.com/search?*", "*://www.google.ca/search?*"],
+	    "js": ["linkfix.js"]
+	}
+    ]
+}
