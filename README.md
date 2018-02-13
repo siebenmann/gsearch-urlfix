@@ -11,3 +11,7 @@ This addon has not been submitted to AMO, so you need a Developer or Nightly Fir
 * It currently only works on www.google.com and www.google.ca, because those are the only two Google search domains I wind up on.
 * The URL-demangling may not work properly for URLs that contain odd characters. Google percent-encodes the URLs and I percent-decode them, but it's possible they need to be partially re-encoded under some circumstances to escape some characters again.
 * There's no icon. I've looked through the [Google Material Design iconset](http://google.github.io/material-design-icons/), which is where Mozilla took their icon for [Your first extension](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension), but nothing jumped out at me as particularly compellingly right.
+
+## License
+
+Mozilla Public License version 2.0.
