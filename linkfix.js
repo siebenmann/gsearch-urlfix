@@ -4,7 +4,6 @@
 
 function fixLinks() {
     var links = document.links;
-    var lnkcnt = links.length;
     for (var i = 0; i < links.length; i++) {
 	if (links[i].pathname != "/url" || links[i].search == "") {
 	    continue;
