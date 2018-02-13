@@ -4,7 +4,7 @@ Google Search URL Fixup is a Firefox WebExtensions addon that undoes the manglin
 
 Google Search has two forms of search results pages, one that's normally served to people with JavaScript and one that's served to people who have it turned off, for example through the use of [uMatrix](https://github.com/gorhill/uMatrix); you can read more details about this in my blog article [Reverse engineering some settings for Google Search](https://utcc.utoronto.ca/~cks/space/blog/web/GoogleSearchSettings). I happen to prefer the no-JavaScript version, but this version has the drawback that Google mangles the URLs of search results to be indirected through Google (with tracking identifiers, of course). This addon reverses that mangling, giving you original URLs in the JS-free search results.
 
-This addon has not been submitted to AMO, so you need a Developer or Nightly Firefox with the appropriate config option set to enable unsigned extensions. If there's sufficient interest, I will submit it to AMO to fix that.
+This addon is now available through AMO as [Google Search URL Fixup](https://addons.mozilla.org/en-US/firefox/addon/google-search-url-fixup/).
 
 ## Known limitations and potential bugs
 
