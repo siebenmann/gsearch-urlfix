@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Google Search URL Fixup",
-    "version": "0.8",
+    "version": "0.8.1",
     "applications": {
 	"gecko": {
 	    "id": "gsearch-urlfix@cks.mef.org"
@@ -12,7 +12,7 @@
 
     "content_scripts": [
 	{
-	    "matches": ["*://www.google.com/search?*", "*://www.google.ca/search?*"],
+	    "matches": ["*://www.google.com/search?*", "*://www.google.ca/search?*", "*://www.google.co.uk/search?*"],
 	    "js": ["linkfix.js"]
 	}
     ]
