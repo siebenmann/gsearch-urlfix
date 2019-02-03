@@ -12,7 +12,7 @@
 
     "content_scripts": [
 	{
-	    "matches": ["*://www.google.com/search?*", "*://www.google.ca/search?*", "*://www.google.co.uk/search?*"],
+	    "matches": ["*://www.google.com/search?*", "*://www.google.ca/search?*", "*://www.google.co.uk/search?*", "*://www.google.se/search?*"],
 	    "js": ["linkfix.js"]
 	}
     ]
