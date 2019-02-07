@@ -8,7 +8,7 @@ This addon is now available through AMO as [Google Search URL Fixup](https://add
 
 ## Known limitations and potential bugs
 
-* It currently only works on www.google.com, www.google.ca, and www.google.co.uk because those are the only Google search domains that I use or that people have requested.
+* It currently only works on www.google.com, www.google.ca, www.google.co.uk, and www.google.se because those are the only Google search domains that I use or that people have requested.
 * The URL-demangling may not work properly for URLs that contain odd characters. Google percent-encodes the URLs and I percent-decode them, but it's possible they need to be partially re-encoded under some circumstances to escape some characters again.
 * There's no icon. I've looked through the [Google Material Design iconset](http://google.github.io/material-design-icons/), which is where Mozilla took their icon for [Your first extension](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension), but nothing jumped out at me as particularly compellingly right.
 
